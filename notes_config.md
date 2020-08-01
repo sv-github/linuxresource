@@ -15,6 +15,11 @@ synclient TapButton3=2
 
 dconf editor middle click emulation
 
+# dconf edditor mutter
+org/gnome/mutter
+  setting auto-maximize   set slider to off
+
+
 # trackpad scrolling
 xinput list-props 10 | grep Scroll
 Synaptics Scrolling Distance (286):	27, 27
@@ -89,3 +94,4 @@ https://www.reddit.com/r/FirefoxCSS/comments/fyi6tl/remove_search_with_and_visit
 https://www.userchrome.org/megabar-styling-firefox-address-bar.html
 
 - note: about:config custom style sheet has to be enabled (it's disabled by default)
+
